@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Pokemon</title>
+</head>
+<body>
+
+    <h1>Número Pokedex</h1>
+
+    <main>
+        <form>
+            <section>
+                <input type="number" name="número" id="campo-número">
+            </section>
+        
+
+            <section>
+                <label for="nome">Nome:</label>
+                <input id="campo-nome" type="text">
+            </section>
+
+            <section>
+            <label for="Tipo">Tipo 1</label>
+            <select name="Tipo1">
+                <option value="Aço">Aço</option>
+                <option value="Agua">Água</option>
+                <option value="Dragao">Dragão</option>
+                <option value="Eletrico">Elétrico</option>
+                <option value="Fada">Fada</option>
+                <option value="Fantasma">Fantasma</option>
+                <option value="Fogo">Fogo</option>
+                <option value="Gelo">Gelo</option>
+                <option value="Inseto">Inseto</option>
+                <option value="Lutador">Lutador</option>
+                <option value="Normal">Normal</option>
+                <option value="Pedra">Pedra</option>
+                <option value="Planta">Planta</option>
+                <option value="Psiquico">Psíquico</option>
+                <option value="Sombrio">Sombrio</option>
+                <option value="Terra">Terra</option>
+                <option value="Venenoso">Venenoso</option>
+                <option value="Voador">Voador</option>
+            </select>
+        </section>
+
+        <section>
+            <label for="Tipo2">Tipo 2</label>
+            <select name="Tipo2">
+                <option value="Aço">Aço</option>
+                <option value="Agua">Água</option>
+                <option value="Dragao">Dragão</option>
+                <option value="Eletrico">Elétrico</option>
+                <option value="Fada">Fada</option>
+                <option value="Fantasma">Fantasma</option>
+                <option value="Fogo">Fogo</option>
+                <option value="Gelo">Gelo</option>
+                <option value="Inseto">Inseto</option>
+                <option value="Lutador">Lutador</option>
+                <option value="Normal">Normal</option>
+                <option value="Pedra">Pedra</option>
+                <option value="Planta">Planta</option>
+                <option value="Psiquico">Psíquico</option>
+                <option value="Sombrio">Sombrio</option>
+                <option value="Terra">Terra</option>
+                <option value="Venenoso">Venenoso</option>
+                <option value="Voador">Voador</option>
+                <option value="Vazio">Não Possui</option>
+            </select>
+
+            <section>
+                <label for="Total">Total</label>
+                <input type="text" id="Total">
+            </section>
+
+            <section>
+                <label for="hp">Hp</label>
+                <input type="number" id="Hp">
+            </section>
+
+            <section>
+                <label for="ataque">Ataque</label>
+                <input type="number" id="Ataque">
+            </section>
+
+            <section>
+                <label for="Defesa">Defesa</label>
+                <input type="number" id="Defesa">
+            </section>
+
+            <section>
+                <label for="Ataque-Especial">Ataque-Especial</label>
+                <input type="number" id="Ataque-especial">
+            </section>
+
+            <section>
+                <label for="Defesa-Especial">Defesa-Especial</label>
+                <input type="text" id="Defesa-Especial">
+            </section>
+
+            <section>
+                <label for="Velocidade">Velocidade</label>
+                <input type="text" id="Velocidade">
+            </section>
+
+            <section>
+                <label for="Geracao">Geração</label>
+                <input type="number" id="Geração" name="Geração" min="1" max="7">
+            </section>
+
+            <section>
+                <label for="Lendario">Lendario</label>
+
+                <select name="Lendario">
+                    <option value="Lendário">Lendário</option>
+                    <option value="Não é Lendário">"Não é Lendário"</option>
+                </select>
+
+            </section>
+
+            <section>
+                <fieldset>
+                    <legend>Cor do Pokemon</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" name="cores" id="vermelho" checked>
+                            <label for="vermelho">Vermelho</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="cores" id="laranja">
+                            <label for="laranja">Laranja</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="cores" id="amarelo">
+                            <label for="amarelo">Amarelo</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="cores" id="verde">
+                            <label for="verde">Verde</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="cores" id="azul">
+                            <label for="azul">Azul</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="cores" id="anil">
+                            <label for="anil">Anil</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="cores" id="violeta">
+                            <label for="violeta">Violeta</label>
+                        </li>
+                    </ul>
+                </fieldset>
+            </section>
+
+            <section>
+                <label for="altura">Altura/Metros</label>
+                <input type="number" id="Altura">
+            </section>
+
+            <section>
+                <label for="peso">Peso/Kg</label>
+                <input type="number" id="peso">
+            </section>
+
+            <section>
+                <label for="Taxa de Captura">Taxa-Captura Máx 255</label>
+                <input type="number" id="Captura" name="Captura" min="0" max="255" maxlength="255">
+            </section>
+        </form>
+    </main>
+    
+</body>
+</html>
